@@ -1,0 +1,58 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main{
+    margin: auto 20px;
+    flex: 1;
+  }
+  
+  img {
+    height: 200px;
+    text-align: right;
+    float: right;
+  }
+  
+  th:hover {
+    background-color: rgb(197, 185, 185);
+  }
+
+  td:hover {
+    background-color: rgb(197, 185, 185);
+  }
+
+  thead:hover {
+    background-color: rgb(197, 185, 185);
+  }
+
+header{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    background-color: rgb(138, 80, 80);
+    color: rgb(250, 250, 250);
+}
+
+header h1{
+    display: inline-block;
+}
+
+.subscription-form {
+  background:rgb(95, 160, 151);
+  color: #fefefe;
+  padding: 1rem; 
+}
+
+footer{
+    font-size: 0.75rem;
+    text-align: center;
+    color: #aaaaaa;
+    background:rgb(95, 160, 151);
+    border-top: solid 1px #aaaaaa;
+    padding: 1rem;
+}
